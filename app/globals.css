@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-gradient-to-b from-white via-blue-50 to-white text-slate-800;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.glass {
+  @apply bg-white/55 backdrop-blur-lg border border-white/60 shadow-luxe;
+}
+
+.gold-gradient {
+  background: linear-gradient(90deg, #f3b94a, #ffdf9b, #f3b94a);
+}
